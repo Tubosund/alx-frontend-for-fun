@@ -1,0 +1,15 @@
+// This Sass file assigns styles using class inheritance and extends.
+
+.info {
+  font-size: 12px; // Base style for elements with class "info"
+}
+
+.success {
+  @extend .info; // Inherit styles from the .info class
+  color: #00FF00; // Override text color for elements with class "success"
+}
+
+.warning {
+  @extend .info; // Inherit styles from the .info class
+  color: #FF0000; // Override text color for elements with class "warning"
+}

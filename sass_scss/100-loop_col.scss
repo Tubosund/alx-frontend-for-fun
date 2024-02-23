@@ -1,0 +1,9 @@
+// This Sass file creates classes with various widths using a @for loop.
+
+@for $i from 1 through 4 {
+  $width: calc(100% / #{$i}); // Calculate width based on number of columns
+
+  .col-#{$i} {
+    width: $width;
+  }
+}

@@ -1,0 +1,11 @@
+// This Sass file creates classes and assigns background images based on a list using @import and @each.
+
+@import "images.scss"; // Assuming images.scss defines image URLs
+
+$list-names: ("home", "about", "contact");
+
+@each $name in $list-names {
+  .#{$name} {
+    background-image: url("#{$name}-bg.jpg"); // Assuming image names follow the pattern
+  }
+}

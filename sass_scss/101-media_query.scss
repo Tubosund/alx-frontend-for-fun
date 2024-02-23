@@ -1,0 +1,11 @@
+// This Sass file assigns responsive font sizes to h1 tags using media queries.
+
+h1 {
+  font-size: 20px; // Base font size for all screen sizes
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 14px; // Override font size for screens smaller than 320px
+  }
+}

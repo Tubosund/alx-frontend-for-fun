@@ -1,0 +1,9 @@
+// This Sass file assigns text color and hover effect to button tags using nested declarations.
+
+button {
+  color: #FF0000; // Default text color for buttons
+
+  &:hover {
+    color: #00FF00; // Text color on hover
+  }
+}

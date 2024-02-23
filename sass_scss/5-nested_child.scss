@@ -1,0 +1,9 @@
+// This Sass file assigns different text colors using nested declarations and :first-child pseudo-class.
+
+body {
+  color: #3D3D3D; // Default text color for body elements and their children
+}
+
+body > .red:first-child {
+  color: #FF0000; // Override color for the first child element with class "red"
+}

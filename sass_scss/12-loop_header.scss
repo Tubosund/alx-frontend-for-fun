@@ -1,0 +1,7 @@
+// This Sass file creates H* tags with increasing font sizes using @for.
+
+@for $i from 1 through 5 {
+  h#{$i} {
+    font-size: #{$i}px;
+  }
+}

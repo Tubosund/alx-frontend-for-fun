@@ -1,0 +1,14 @@
+SCSS
+// This Sass file assigns different font sizes using nested declarations.
+
+body {
+  font-size: 14px; // Default font size for body elements
+}
+
+body h1 {
+  font-size: 16px; // Override font size for all h1 elements
+}
+
+body h1.smaller {
+  font-size: 12px; // Override font size for h1 with class "smaller"
+}
